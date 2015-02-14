@@ -1,0 +1,31 @@
+body{margin: 0}
+h1{
+    font-family: helvetica neue light, sans-serif;
+    font-size: 120%;
+    font-weight: 100;
+    padding: 20px 20px 20px 20px
+}
+
+p{
+    font-family: helvetica Neue, sans-serif;
+    font-weight: 100;
+    padding: 80px 50px 80px 50px;
+    line-height: 160%;
+}
+
+.layout-1{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.layout-1 div {
+    flex: 1;
+    min-width: 50%;
+    max-width: 50%;
+}
+img{
+    width: 100%;
+     vertical-align: top;
+}
+
